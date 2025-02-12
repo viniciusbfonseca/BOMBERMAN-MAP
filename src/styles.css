@@ -20,3 +20,43 @@ ul {
 html {
     scroll-behavior: smooth ;
 }
+
+
+.cabecalho .logo .bomberman {
+    width: 100px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    max-width: 1170px;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+}
+
+@media(max-width: 624px) {
+
+.cabecalho{
+    justify-content: center;
+}
+
+.cabecalho.logo {
+    margin-bottom: 30px;
+}
+
+.cabecalho .menu .item a{
+    font-size: calc(0.6em +1vw);
+}
+
+}
+
+.cabecalho .logo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+}
