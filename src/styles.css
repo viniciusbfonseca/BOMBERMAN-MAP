@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #000;
-    
+
 }
 
 a {
@@ -19,7 +19,7 @@ ul {
 }
 
 html {
-    scroll-behavior: smooth ;
+    scroll-behavior: smooth;
 }
 
 
@@ -40,17 +40,17 @@ html {
 
 @media(max-width: 624px) {
 
-.cabecalho{
-    justify-content: center;
-}
+    .cabecalho {
+        justify-content: center;
+    }
 
-.cabecalho.logo {
-    margin-bottom: 30px;
-}
+    .cabecalho.logo {
+        margin-bottom: 30px;
+    }
 
-.cabecalho .menu .item a{
-    font-size: calc(0.6em +1vw);
-}
+    .cabecalho .menu .item a {
+        font-size: calc(0.6em +1vw);
+    }
 
 }
 
@@ -86,28 +86,35 @@ html {
     transition: 0.3 ease-in-out;
 }
 
-.cabecalho .navegacao .menu .item a:hover{
+.cabecalho .navegacao .menu .item a:hover {
     background-color: #fff6ff;
     color: #f17e;
     border-radius: 100px;
 }
 
-@media(max-width: 900px) {
-    .conteudo-principal .paineis{
-        height: 500px;
-    }
+.historia {
+    background-color: white;
 }
 
-.conteudo-principal .paineis{
+@media(max-width:900px) {
+
+    .conteudo-principal .paineis {
+        height: 500px;
+    }
+
+}
+
+
+.conteudo-principal .paineis {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 700px;
+    height: 450px;
     position: relative;
 }
 
-.conteudo-principal .paineis .imagem-mapa {
+.conteudo-principal .paineis .imagem-painel {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -120,31 +127,30 @@ html {
     opacity: 0;
     transition: 0.3 ease-in-out;
 }
-
-.conteudo-principal .paineis .mapa1 {
-    background-image: url(../src/images/mapa1.png);
+.conteudo-principal .paineis .projeto1 {
+    background-image: url('../src/images/mapa1.png');
 }
 
-.conteudo-principal .paineis .mapa2 {
-    background-image: url(../src/images/bomberman-map2.jpg);
+.conteudo-principal .paineis .projeto2 {
+    background-image: url('../src/images/bomberman-map2.jpg');
 }
 
-.conteudo-principal .paineis .mapa3 {
-    background-image: url(../src/images/bomberman-map3.jpg);
+.conteudo-principal .paineis .projeto3 {
+    background-image: url('../src/images/bomberman-map3.jpg');
 }
+
 
 .conteudo-principal .paineis .imagem-painel.mostrar {
-    opacity: -1;
+    opacity: 1;
 }
-
 .conteudo-principal .paineis .titulo {
     color: #f17e;
     text-transform: uppercase;
     font-size: calc(1em + 1vw);
 }
 
-.conteudo-principal .paineis .paineis .seta {
-    background: url(../src/images/seta.png);
+.conteudo-principal .paineis .seta {
+    background-image: url(../src/images/seta.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
@@ -161,10 +167,7 @@ html {
 
 .conteudo-principal .paineis .seta.btn-avancar {
     right: 20px;
-}
 
-.historia {
-    background-color: white;
 }
 
 .historia .conteudo {
@@ -178,11 +181,11 @@ html {
 }
 
 
-.historia .conteudo .imagem{
+.historia .conteudo .imagem {
     width: 60%;
 }
 
-.historia .conteudo .informacoes .titulo{
+.historia .conteudo .informacoes .titulo {
     font-size: 50px;
     color: #f17e;
     margin-bottom: 20px;
@@ -195,13 +198,13 @@ html {
 }
 
 @media(max-width:1200px) {
-    .historia .conteudo{
+    .historia .conteudo {
         flex-direction: column;
         text-align: center;
         padding: 100px 30px;
     }
 
-    .historia .conteudo .img{
+    .historia .conteudo .img {
         display: none;
     }
 
@@ -228,7 +231,7 @@ html {
     display: flex;
 }
 
-.rodape .redes-sociais a{
+.rodape .redes-sociais a {
     display: flex;
     justify-content: center;
     margin: 0 10px;
@@ -239,11 +242,11 @@ html {
     transition: 0.3s ease-in-out;
 }
 
-.rodape .redes-sociais a:hover{
+.rodape .redes-sociais a:hover {
     background-color: rgba(255, 17, 120, 0.226);
 }
 
-@media(max-width: 940px){
+@media(max-width: 940px) {
     .rodape .navegacao {
         justify-content: center;
     }
