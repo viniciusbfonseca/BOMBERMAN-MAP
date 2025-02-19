@@ -112,6 +112,7 @@ html {
     align-content: center;
     height: 450px;
     position: relative;
+    margin: 0 200px;
 }
 
 .conteudo-principal .paineis .imagem-painel {
@@ -123,6 +124,9 @@ html {
     position: absolute;
     z-index: -1;
     filter: brightness(80%);
+    border-radius: 100px;
+    border: #f17e solid;
+    border-width: 20px;
 
     opacity: 0;
     transition: 0.3 ease-in-out;
@@ -150,7 +154,7 @@ html {
 }
 
 .conteudo-principal .paineis .seta {
-    background-image: url(../src/images/seta.png);
+    background-image: url(../src/images/setaa.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
@@ -158,6 +162,7 @@ html {
     position: absolute;
     text-indent: 100%;
     overflow: hidden;
+    margin: -35px;
 }
 
 .conteudo-principal .paineis .seta.btn-voltar {
